@@ -1,18 +1,18 @@
-## Getting Started
+## Calculating The Sum Of All Even Digits In An Integer
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+Write a method named getEvenDigitSum with one parameter of type int called number. 
+
+The method should return the sum of the even digits within the number. 
+
+If the number is negative, the method should return -1 to indicate an invalid value.
+
+## Example Input/Output
 
 The workspace contains two folders by default, where:
+- getEvenDigitSum(123456789); → should return 20 since 2 + 4 + 6 + 8 = 20
+- getEvenDigitSum(252); → should return 4 since 2 + 2 = 4
+- getEvenDigitSum(-22); → should return -1 since the number is negative
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
